@@ -1,7 +1,9 @@
 galaxy_info:
   author: Nikita Kiselyov
   description: role for install and configure Vector for CLickhouse
-  company:
+  company: nkiselyov
+  role_name: vector
+  namespace: nkiselyov
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
