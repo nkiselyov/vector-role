@@ -7,9 +7,8 @@ platforms:
   - name: centos7
     image: docker.io/pycontribs/centos:7
     pre_build_image: true
-  - name: ubuntu
-    image: docker.io/pycontribs/ubuntu:latest
-    pre_build_image: true
+    command: /sbin/init
+    privileged: True
 provisioner:
   name: ansible
 verifier:
